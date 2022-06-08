@@ -6,8 +6,8 @@ function increment(){
     currentNumber = currentNumber + 1;
     currentNumberWrapper.innerHTML = currentNumber;
     if( currentNumber > 0){
-        outraCor.style.color = 'blue'
-    }
+        outraCor.style.color = 'black'
+   }
 }
 
 function decrement(){
