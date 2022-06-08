@@ -1,7 +1,7 @@
 
 body{
     height: 100vh;
-    
+    margin: 0;
     color: rgb(41, 41, 41);
     font-family: 'Indie Flower', cursive;
 }
@@ -14,7 +14,6 @@ p{
     font-size: 1.2rem;
 }
 
-
 .container{
     display: flex;
     flex-direction: column;
@@ -23,8 +22,6 @@ p{
     background: linear-gradient(0, #daa4b6, #e7cde7);
 
     width: 50%;
-
-    
 
     border: 4px solid black;
     border-radius: 50px 100px;
@@ -44,13 +41,18 @@ p{
 .number{
     display: flex;
     margin: 1rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: 0 4rem 0 4rem;
 }
 
 .adicionar, .subtrair{
-    width: 4rem;
-    height: 2rem;
+    width: 6rem;
+    height: 3rem;
     border-radius: 50px;
     background: black;
+    margin: 1rem;
+    
 }
 
 
